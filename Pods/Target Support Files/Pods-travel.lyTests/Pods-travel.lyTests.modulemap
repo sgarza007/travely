@@ -1,0 +1,6 @@
+framework module Pods_travel_lyTests {
+  umbrella header "Pods-travel.lyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

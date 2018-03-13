@@ -1,0 +1,6 @@
+framework module Pods_travel_ly {
+  umbrella header "Pods-travel.ly-umbrella.h"
+
+  export *
+  module * { export * }
+}
