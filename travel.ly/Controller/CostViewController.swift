@@ -10,6 +10,7 @@ import UIKit
 
 class CostViewController: UIViewController {
 
+    @IBOutlet weak var tripCost: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

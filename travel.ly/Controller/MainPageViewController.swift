@@ -74,11 +74,11 @@ class MainPageViewController: UIViewController, UIPickerViewDataSource, UIPicker
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 1{
             originPlacePicked = placesOrigin[row]
-            print("Selected : \(placesOrigin[row])")
+            print("Selected : \(originPlacePicked)")
         }
         else if pickerView.tag == 2{
             destinationPlacePicked = placesDestination[row]
-            print("Selected : \(placesDestination[row])")
+            print("Selected : \(destinationPlacePicked)")
         }
         else{
             print("Error in picker")
