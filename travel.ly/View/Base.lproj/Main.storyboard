@@ -343,12 +343,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8IF-fb-HBi" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="352" width="375" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="SPc-RC-tyB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Brn-kF-9IQ"/>
                     <connections>
+                        <outlet property="pieChartView" destination="8IF-fb-HBi" id="HOE-Hl-pkv"/>
                         <outlet property="tripCost" destination="0Xa-Tr-mjG" id="oGZ-TR-IiY"/>
                     </connections>
                 </viewController>
